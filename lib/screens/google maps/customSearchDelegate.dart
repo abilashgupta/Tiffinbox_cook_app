@@ -16,6 +16,7 @@ class CustomSearchDelegate extends SearchDelegate {
         },
       )
     ];
+    // TODO: implement buildActions
     // throw UnimplementedError();
   }
 
@@ -26,12 +27,14 @@ class CustomSearchDelegate extends SearchDelegate {
         onPressed: () {
           close(context, null);
         });
+    // TODO: implement buildLeading
     // throw UnimplementedError();
   }
 
   @override
   Widget buildResults(BuildContext context) {
     return Container();
+    // TODO: implement buildResults
     // throw UnimplementedError();
   }
 

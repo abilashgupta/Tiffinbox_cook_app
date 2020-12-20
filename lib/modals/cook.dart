@@ -4,14 +4,10 @@ class Cook {
   String name;
   String emailAddress;
   String phoneNumber;
-  String uuid;
-  String status;
   Cook({
     @required this.name,
     @required this.emailAddress,
     @required this.phoneNumber,
-    @required this.uuid,
-    
   });
 
   Map<String, dynamic> toMap() {
@@ -19,8 +15,6 @@ class Cook {
       "name": name,
       "emailAddress": emailAddress,
       "phoneNumber": phoneNumber,
-      "uuid": uuid,
-      "status": "online",
     };
   }
 }
